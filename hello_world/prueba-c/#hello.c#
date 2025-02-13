@@ -21,17 +21,8 @@ double function_sum(){
    scanf("%f", &num2);
  printf("Desea realizar la cuenta? Presione 1 para realizarla.\n");
    scanf("%i", &continua);
-while (1){
-
-  printf("Desea realizar la suma?. Presiona 1 para si y 0 para no.");
-  scanf(" %c", &continua);
-  
-    if (continua == '1'){
-      double resultado = num1 + num2;
-      printf("El resultado de la suma es: %.2lf\n", resultado); 
-  }else{
-    printf("Gracias por intentarlo.");
-    break;
-    }
+while (continua == '1'){
+   double resultado = num1 + num2;
+   printf("El resultado de la suma es:" &resultado  " \n"); 
+  }
  }
-}
