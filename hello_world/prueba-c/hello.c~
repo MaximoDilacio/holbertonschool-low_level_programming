@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+double function_sum();
+
+int main(){
+
+  function_sum();
+  return 0;
+}
+
+double function_sum(){
+ float num1 = 0;
+ float num2 = 0;
+ int continua;
+
+ printf("Calculadora solo suma\n");
+ printf("-------------------------\n");
+ printf("Ingrese el primer numero\n");
+   scanf("%f", &num1);
+ printf("Ingrese el segundo numero\n");
+   scanf("%f", &num2);
+ printf("Desea realizar la cuenta? Presione 1 para realizarla.\n");
+   scanf("%i", &continua);
+while (1){
+
+  printf("Desea realizar la suma?. Presiona 1 para si y 0 para no.");
+  scanf(" %c", &continua)
+  
+    if (continua == '1'){
+      double resultado = num1 + num2;
+      printf("El resultado de la suma es: %.2lf\n", resultado); 
+  }else{
+    printf("Gracias por intentarlo.");
+    break;
+ }
+}
