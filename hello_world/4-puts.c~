@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int puts()
+{
+
+  int puts(char* a);
+
+}
+
+
+int main(void)
+{
+
+  int puts();
+}
