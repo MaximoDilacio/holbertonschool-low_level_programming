@@ -1,0 +1,26 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - Funcion principal
+ * Return: Retorna 0 si se ejecuta correctamente
+ */
+int main(void)
+{
+	int numero, ultimo_digito;
+
+	srand(time(0));
+	numero = rand() - RAND_MAX / 2;
+	ultimo_digito = numero % 10;
+
+	printf("El ultimo digito de %d es %d ", numero, ultimo_digito);
+	if (ultimo_digito > 5)
+		printf("y es mayor que 5\n");
+	else if (ultimo_digito == 0)
+		printf("y es 0\n");
+	else
+		printf("y es menor que 6 y no es 0\n");
+
+	return (0);
+}
