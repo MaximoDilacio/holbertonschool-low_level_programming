@@ -3,24 +3,26 @@
 #include <stdio.h>
 
 /**
- * main - Funcion principal
- * Return: Retorna 0 si se ejecuta correctamente
+ * main - Main function
+ * Return: Returns 0 if executed correctly
  */
 int main(void)
 {
-	int numero, ultimo_digito;
+    int n, last_digit;
 
-	srand(time(0));
-	numero = rand() - RAND_MAX / 2;
-	ultimo_digito = numero % 10;
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+    last_digit = n % 10;
 
-	printf("El ultimo digito de %d es %d ", numero, ultimo_digito);
-	if (ultimo_digito > 5)
-		printf("y es mayor que 5\n");
-	else if (ultimo_digito == 0)
-		printf("y es 0\n");
-	else
-		printf("y es menor que 6 y no es 0\n");
+    printf("Last digit of %d is %d", n, last_digit);
+    
+    if (last_digit > 5)
+        printf(" and is greater than 5\n");
+    else if (last_digit == 0)
+        printf(" and is 0\n");
+    else
+        printf(" and is less than 6 and not 0\n");
 
-	return (0);
+    return (0);
 }
+
