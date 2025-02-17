@@ -5,18 +5,19 @@
 */
 int main(void)
 {
-	char letraI;
-	char letraM;
+	char letra;
 
-	for (letraI = 'a'; letraI <= 'z'; letraI++)
+	for (letra = 'a'; letra <= 'z'; letra++)
 	{
-		putchar(letraI);
+		putchar(letra);
 	}
 
-	for (letraM = 'A'; letraM <= 'Z'; letraM++)
+	for (letra = 'A'; letra <= 'Z'; letra++)
 	{
-		putchar(letraM, '\n');
+		putchar(letra);
 	}
+
+	putchar('\n');
 
 	return (0);
 }
