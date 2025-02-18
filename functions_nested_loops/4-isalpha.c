@@ -1,16 +1,16 @@
 #include "main.h"
 #include <ctype.h>
-
 /**
- * main - check the code.
+ *_isalpha - check if c is alphabetic character
  *
- * Return: Always 0.
+ * @c: parameter that obtain a character
+ *Return: 1 if is alphabetic, 0 otherwise
 */
 int _isalpha(int c)
 {
-	if(isalpha(c))
+	if (isalpha(c))
 	{
-		return (1);	
+		return (1);
 	}
 
 	return (0);
