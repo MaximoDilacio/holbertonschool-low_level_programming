@@ -1,25 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet - print alphabet
  */
-
-int print_alphabet()
+void print_alphabet(void)
 {
 	char letra;
 
 	for(letra = 'a'; letra <= 'z'; letra++)
 	{
-		putchar(letra);
+		_putchar(letra);
 	}
 
-	putchar('\n');
-}
-
-int main(void)
-{
-    print_alphabet();
-    return (0);
+	_putchar('\n');
 }
