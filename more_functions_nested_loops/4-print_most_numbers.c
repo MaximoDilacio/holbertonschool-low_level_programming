@@ -14,5 +14,5 @@ void print_most_numbers(void)
 			_putchar(n);
 		}
 	}
-	printf("\n");
+	fwrite("\n", sizeof(char), 1, stdout);
 }
