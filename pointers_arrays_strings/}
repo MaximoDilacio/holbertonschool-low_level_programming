@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ *
+ *
+ *
+*/
+int _strlen(char *s)
+{
+	i = str[0];
+	i++;
+
+	printf("%d", i);
+
+}
