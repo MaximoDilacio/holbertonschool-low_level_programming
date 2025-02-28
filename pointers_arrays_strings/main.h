@@ -1,4 +1,5 @@
 int _strlen(char *s);
+void puts_half(char *str);
 void puts2(char *str);
 int _putchar( char c);
 void _puts(char *str);
