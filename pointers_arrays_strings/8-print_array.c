@@ -18,7 +18,7 @@ void print_array(int *a, int n)
 	{
 		if (contador + 1 != n)
 		{
-			printf("%d ", a[contador]);
+			printf("%d, ", a[contador]);
 		} else
 		{
 			printf("%d\n", a[contador]);
