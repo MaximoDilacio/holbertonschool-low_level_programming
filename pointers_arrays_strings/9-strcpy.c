@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *
- *
- *
+ * *_strcpy - function print dest
+ * @dest: char
+ * @src: char
+ * Return: Return dest
 */
 char *_strcpy(char *dest, char *src)
 {
@@ -17,5 +18,4 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 
 	return (dest);
-	
 }
