@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src)
 		dest++;
 	}
 
-	if (dest != temp)
+	if (dest != temp && *(dest - 1) != ' ')
 	{
 		*dest = ' ';
 		dest++;
