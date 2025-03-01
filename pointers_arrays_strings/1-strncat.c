@@ -13,7 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest++;
 	}
-	
+
 	if (dest != temp && *(dest - 1) != ' ')
 	{
 		*dest = ' ';
@@ -26,7 +26,7 @@ char *_strncat(char *dest, char *src, int n)
 		dest++;
 		src++;
 	}
-	
+
 	*dest = '\0';
-	return temp;
+	return (temp);
 }
