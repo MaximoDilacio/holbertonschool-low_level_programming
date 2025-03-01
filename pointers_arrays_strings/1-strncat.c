@@ -4,6 +4,7 @@
  * @dest: string
  * @src: string
  * @n: ammount of bytes
+ * Return: return temp
 */
 char *_strncat(char *dest, char *src, int n)
 {
