@@ -1,4 +1,5 @@
 int _strlen(char *s);
+char *_memset(char *s, char b, unsigned int n);
 char *leet(char *s);
 char *cap_string(char *s);
 char *string_toupper(char *s);
