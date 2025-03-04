@@ -11,10 +11,13 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int count = 0;
 	int i, found;
 
-	while (*s) {
+	while (*s)
+	{
 		found = 0;
-		for (i = 0; accept[i]; i++) {
-			if (*s == accept[i]) {
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+			{
 				found = 1;
 				break;
 			}
@@ -25,6 +28,6 @@ unsigned int _strspn(char *s, char *accept)
 		s++;
 	}
 
-	return count;
+	return (count);
 }
 
