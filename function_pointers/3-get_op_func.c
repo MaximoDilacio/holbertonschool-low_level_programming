@@ -3,7 +3,7 @@
 /**
  * get_op_func - Selecciona la función correspondiente al operador
  * @s: Operador en forma de string
- * Return: Puntero a la función correspondiente o NULL si el operador no existe
+ * Return: Puntero a la función correspondiente o NUL
  */
 int (*get_op_func(char *s))(int, int)
 {
