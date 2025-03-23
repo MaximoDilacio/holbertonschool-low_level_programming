@@ -11,13 +11,13 @@ void print_all(const char * const format, ...)
 	int i = 0;
 	char *str, *sep = "";
 
-	va_start(args,format);
+	va_start(args, format);
 
 	while (format && format[i])
 	{
 		printf("%s", sep);
 		sep = ", ";
-		
+
 		switch (format[i])
 		{
 			case 'c':
@@ -39,10 +39,9 @@ void print_all(const char * const format, ...)
 		}
 
 		i++;
-	}	
+	}
 
 	printf("\n");
 	va_end(args);
-
 
 }
